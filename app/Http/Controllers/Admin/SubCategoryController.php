@@ -5,24 +5,24 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class OrderController extends Controller
+class SubCategoryController extends Controller
 {
     //all method
     public function all()
     {
-        return view('pages.admin.order.all');
+        return view('pages.admin.sub-category.all');
     }
 
     //create method
     public function create()
     {
-        return view('pages.admin.order.create');
+        return view('pages.admin.sub-category.create');
     }
 
     //edit method
     public function edit()
     {
-        return view('pages.admin.order.edit');
+        return view('pages.admin.sub-category.edit');
     }
 
     //store method

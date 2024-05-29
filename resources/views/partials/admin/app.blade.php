@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en" class="light-style layout-compact layout-navbar-fixed layout-menu-fixed" dir="ltr"
@@ -20,7 +19,8 @@
     <!-- Canonical SEO -->
     <link rel="canonical" href="" />
     <!-- Favicon -->
-    {{-- <link rel="icon" type="image/x-icon" href="{{ asset('images/logo') . '/' . $company[0]->fav }}" /> --}}
+    {{--
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/logo') . '/' . $company[0]->fav }}" /> --}}
 
     <!-- Include Styles -->
     <!-- $isFront is used to append the front layout styles only on the front layout otherwise the variable will be blank -->
@@ -32,26 +32,18 @@
         href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet" />
 
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/fonts/boxicons.css') }}" />
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/fonts/fontawesome.css') }}" />
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/fonts/flag-icons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/fonts/boxicons.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/fonts/fontawesome.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/fonts/flag-icons.css') }}" />
     <!-- Core CSS -->
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/css/rtl/core.css') }}"
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/css/rtl/core.css') }}"
         class="template-customizer-core-css" />
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/css/rtl/theme-default.css') }}"
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/css/rtl/theme-default.css') }}"
         class="template-customizer-theme-css" />
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/css/demo.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/css/demo.css') }}" />
     <!-- Vendors CSS -->
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
-    <link rel="stylesheet"
-        href="{{ asset('admin/assets/vendor/libs/typeahead-js/typeahead.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}" />
+    <link rel="stylesheet" href="{{ asset('admin/assets/vendor/libs/typeahead-js/typeahead.css') }}" />
 
     <!-- Vendor Styles -->
     <link rel="stylesheet" href="{{ asset('admin/assets/vendor/libs/apex-charts/apex-charts.css') }}" />
@@ -88,7 +80,7 @@
                     "theme-default.css": "{{ asset('admin/assets/css/theme-default.css') }}",
                     "theme-default-dark.css": "{{ asset('admin/assets/css/theme-default-dark.css') }}",
                     "theme-bordered.css": "{{ asset('admin/assets/css/theme-bordered.css') }}",
-                    "theme-bordered-dark.css": "{{ asset(admin/'assets/css/theme-bordered-dark.css') }}",
+                    "theme-bordered-dark.css": "{{ asset('admin/assets/css/theme-bordered-dark.css') }}",
                     "theme-semi-dark.css": "{{ asset('admin/assets/css/theme-semi-dark.css') }}",
                     "theme-semi-dark-dark.css": "{{ asset('admin/assets/css/theme-semi-dark-dark.css') }}",
                 };

@@ -24,4 +24,10 @@ class UserController extends Controller
     {
         return '';
     }
+
+    //all user method
+    public function all()
+    {
+        return view('pages.admin.user.all');
+    }
 }
