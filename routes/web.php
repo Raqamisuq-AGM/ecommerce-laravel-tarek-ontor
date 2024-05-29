@@ -99,7 +99,6 @@ Route::prefix('admin')->group(function () {
         Route::post('/update-password', [SystemController::class, 'updatePassword'])->name('admin.update.password');
         Route::get('/change-email', [SystemController::class, 'changeEmail'])->name('admin.change.email');
         Route::post('/update-email', [SystemController::class, 'updateEmail'])->name('admin.update.email');
-        Route::post('/update-about', [SystemController::class, 'updateAbout'])->name('admin.update.about');
         Route::get('/logo-fav', [SystemController::class, 'changeLogo'])->name('admin.change.logo');
         Route::post('/update-logo-fav', [SystemController::class, 'updateLogo'])->name('admin.update.logo');
         Route::get('/system-details', [SystemController::class, 'changeSystemDetails'])->name('admin.change.system');
