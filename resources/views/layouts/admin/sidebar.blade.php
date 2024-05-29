@@ -106,7 +106,7 @@
             class="menu-item {{ request()->routeIs('admin.change.password', 'admin.change.email', 'admin.change.logo', 'admin.change.system') ? 'active open' : '' }}">
             <a href="{{route('admin.order.all')}}" class="menu-link menu-toggle">
                 <i class='menu-icon tf-icons bx bx-cog'></i>
-                <div class="text-truncate">System</div>
+                <div class="text-truncate">Settings</div>
             </a>
 
             <ul class="menu-sub">
