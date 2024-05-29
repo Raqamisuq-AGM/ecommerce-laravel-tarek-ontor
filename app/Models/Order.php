@@ -19,6 +19,7 @@ class Order extends Model
         'cost',
         'coupon_code',
         'coupon_com',
+        'status',
     ];
 
     public function product()

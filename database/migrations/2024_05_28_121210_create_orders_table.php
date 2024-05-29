@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('cost')->nullable();
             $table->string('coupon_code')->nullable();
             $table->string('coupon_com')->nullable();
+            $table->string('status')->nullable();
             $table->foreign('product_id')
                 ->references('id')
                 ->on('products')

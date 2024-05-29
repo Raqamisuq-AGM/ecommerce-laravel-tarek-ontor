@@ -26,6 +26,8 @@ return new class extends Migration
             $table->string('pinterest')->nullable();
             $table->string('dribble')->nullable();
             $table->string('linkedin')->nullable();
+            $table->string('tiktok')->nullable();
+            $table->string('youtube')->nullable();
             $table->longText('about_us')->nullable();
             $table->longText('terms_condition')->nullable();
             $table->longText('refund_policy')->nullable();

@@ -21,6 +21,8 @@ class System extends Model
         'pinterest',
         'dribble',
         'linkedin',
+        'tiktok',
+        'youtube',
         'about_us',
         'terms_condition',
         'refund_policy',
